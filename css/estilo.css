@@ -1,0 +1,107 @@
+.contactos{
+	border:4px dutted #FCBBE0;
+	float:left;
+	width:400px;
+    margin:30px;
+    background: #9C075C;
+
+
+}
+
+.SERVICIOS{
+    background-color:#FCBBE0;
+    border: 10px dotted palevioletred ;
+    width: 300px ;
+    min-height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.Bones{
+    background-color:#FCBBE0;
+    border: 10px dotted palevioletred ;
+    width: 300px ;
+    min-height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+header{
+    background-color:#FA8FDD;
+    border-bottom:  3px solid #861D76;
+    padding: 10px 50px;
+
+
+ }
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #861D76;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: #700542;
+   padding: 8px 12px;
+   border-radius: 4px;
+   transition: background-color 1s, color 1s;
+
+}
+
+nav ul li a:hover{
+    background-color: #440328;
+    color:  #FA8FDD ;
+}
+
+footer {
+background-color: #700557; /* magenta muy oscuro */
+color: #cbd5e1;
+padding: 20px;
+font-size: 14px;
+clear: both;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
